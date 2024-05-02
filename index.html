@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Convert Doc To Html file</title>
+  <link rel="stylesheet" href="./resources/css/index.css">
+  <link rel="stylesheet" href="./resources/css/article_styles.css">
+</head>
+<body>
+  <section class="s_one">
+    <h1>Insira seu arquivo Doc ou Docx abaixo:</h1>
+    <div>
+      <label id="input-file-label" for="input-file">Clique aqui para anexar um arquivo</label>
+      <input
+        type="file"
+        name="input-file"
+        id="input-file"
+        accept=".doc, .docx"
+        hidden
+        >
+        <button class="download-btn" disabled>Baixar Arquivo</button>
+    </div>
+  </section>
+  <section class="c-paragraph c-special-article__content">
+    <div class="caixaTexto">
+
+    </div>
+    
+  </section>
+  <script src="./resources/scripts/bundle.js"></script>
+</body>
+</html>

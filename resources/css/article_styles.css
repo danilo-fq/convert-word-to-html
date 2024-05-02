@@ -1,0 +1,33 @@
+.c-single {
+  position: relative;
+}
+
+.c-special-article__content {
+  max-width: 740px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+}
+
+.c-paragraph {
+  font-size: 21.994px;
+  line-height: 32px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.caixaTexto {
+  color: rgba(0, 0, 0, 0.6);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  font-family: freight-text-pro, sans-serif;
+}
+
+.alignCenter {
+  text-align: center;
+}
